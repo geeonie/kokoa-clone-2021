@@ -1,3 +1,3 @@
-# Kokoa Clone 2021 UPdate
+# Kokoa Clone 2021 Update
 
-My first clone cording !
+HTML & CSS are so much fun!
