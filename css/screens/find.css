@@ -1,0 +1,124 @@
+.recommended-friends {
+  padding-top: 20px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 16px;
+  color: var(--font-color);
+}
+
+.recommended-friends span {
+  margin: 90px 0px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: var(--font-color);
+}
+
+.open-chat__header {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: var(--font-color);
+}
+
+.open-chat__header span {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 6px;
+}
+
+.open-post__mambers {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__mambers img {
+  width: 22px;
+  height: 22px;
+  border: var(--main-border);
+  border-radius: 43%;
+  margin-right: 5px;
+}
+
+.open-post__mamber-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open-post__mambers .divider {
+  width: 1px;
+  height: 13px;
+  background-color: var(--font-color);
+  opacity: 0.6;
+  margin: 0 5px;
+}
+
+.open-post__mamber-status {
+  color: hotpink;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 9px;
+  right: 5px;
+  font-size: 12px;
+}
+
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

@@ -1,0 +1,17 @@
+.point {
+  background-color: var(--lavendar);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.point__nav {
+  left: 31px;
+  bottom: 28px;
+}
+
+.point__screen-header {
+  right: -5px;
+  top: -7px;
+}
